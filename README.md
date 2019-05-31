@@ -1,2 +1,2 @@
-# PokerTracker4
-Custom reports, statistics, and displays
+# PokerTools
+Custom reports, statistics, displays, and models
