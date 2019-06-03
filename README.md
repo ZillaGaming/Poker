@@ -1,5 +1,5 @@
 # PokerTracker 4
-PokerTracker imports and parses the hand histories that poker sites create during online play and stores the resulting statistics and information in a local postgreSQL database. The information is used for in-game opponent analysis using a custom Head-Up Display (HUD), an automatic real-time overlay of each players statistics for each poker table, and for statistical analysis and review using custom reports, statistics, and filters. 
+PokerTracker imports and parses the hand histories that poker sites create during online play and stores the resulting statistics and information in a local PostgreSQL database. The information is used for in-game opponent analysis using a custom Head-Up Display (HUD), an automatic real-time overlay of each players statistics for each poker table, and for statistical analysis and review using custom reports, statistics, and filters. 
 
 * Custom Statistic Coding = Custom programmed statistics to track key strategic metrics used in HUDs and reports.
 * Custom HUD = Displays general game state data and custom statistics on each table for each opponent. Used for identifying strategically and mathematically inefficient frequencies employed by opponents.
