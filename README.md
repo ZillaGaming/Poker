@@ -5,7 +5,7 @@ PokerTracker imports and parses the hand histories that poker sites create durin
 * Custom HUD = Displays general game state data and custom statistics on each table for each opponent. Used for identifying strategically and mathematically inefficient frequencies employed by opponents.
 * Custom Pop-Up HUD = A visually smaller version of Custom HUD. Displays only essential metrics with additional information available from clickable pop-ups.
 * HUD Builder = Used to create the HUDs. Builder shows each statistical group (each represents a diffent panel on the table dsiplay), the custom statistics involved with each group, and an approximated representation of the table visualization.
-* Custom Reporting = Uses custom statistics and filters to isolate specific segments of data used for statistical and strategic analysis.
+* Custom Reporting = Uses custom statistics and filters to isolate specific segments of data for statistical and strategic analysis, such as identifying population benchmarks or playability cut-offs.
 
 # PIOSolver
 PioSOLVER is a game theory optimal (GTO) solver for Texas Hold'em. It handles postflop spots with arbitrary starting ranges, stack sizes, bet-sizes as well as desired accuracy and displays the solution tree.
