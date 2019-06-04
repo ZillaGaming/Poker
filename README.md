@@ -26,4 +26,4 @@ CardRunnersEV is poker analysis software that will allow you to build decision t
 
 # Microsoft Excel
 
-* Bluffing and Bluff Catching Model = Used to calclualte combinatorics required for GTO bluffing and bluff catching frequencies and also the EV based on bet size and equity.
+* Bluffing and Bluff Catching Model = Used to calclualte combinatorics required for GTO bluffing and bluff catching frequencies for rivers and also the EV based on bet size and equity.
