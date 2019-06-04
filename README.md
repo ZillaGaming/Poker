@@ -10,8 +10,12 @@ PokerTracker imports and parses the hand histories that poker sites create durin
 # PIOSolver
 PioSOLVER is a game theory optimal (GTO) solver for Texas Hold'em. It handles postflop spots with arbitrary starting ranges, stack sizes, bet-sizes as well as desired accuracy and displays the solution tree.
 
+* PostFlop Range Tree Builder = Used to build the postflop game trees and explore permutations of possible outcomes based on different bet actions, bet sizes, and stack sizes.
+
+* PostFlop Solver Analysis = Visualization of expected value (EV) for GTO strategies, particularly useful for identifying areas where mixed strategies are implemented (multiple strategies deployed at non-zero frequencies).
+
 # CardRunnersEV
-CardRunnersEV is poker analysis software that will allow you to build decision trees and calculate the expected value (EV) of every decision within that tree.
+CardRunnersEV is poker analysis software that will allow you to build decision trees and calculate the EV of every decision within that tree.
 
 # SimplePostflop
 Simple Postflop is software for calculating Nash-Equilibrium strategies in pre-flop and post flop Texas Hold'em situations. SimplePostflop builds GTO strategies in pre-flop and post flop situations according to bet-sizing and ranges of two players.
