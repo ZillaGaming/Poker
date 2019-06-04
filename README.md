@@ -16,7 +16,7 @@ PioSOLVER is a game theory optimal (GTO) solver for Texas Hold'em. It handles po
 
 # Microsoft Excel
 
-* Bluffing and Bluff Catching Model = Used to calclualte combinatorics required for GTO bluffing and bluff catching frequencies for rivers and also the EV based on bet size and equity.
+* Bluffing and Bluff Catching Model = Used to calclualte combinatorics required for GTO bluffing and bluff catching frequencies as well as the EV based on various frequencies, bet sizes, and equities.
 
 # SimplePostflop
 Simple Postflop is software for calculating Nash-Equilibrium strategies in pre-flop and post flop Texas Hold'em situations. SimplePostflop builds GTO strategies in pre-flop and post flop situations according to bet-sizing and ranges of two players.
