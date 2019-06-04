@@ -14,6 +14,10 @@ PioSOLVER is a game theory optimal (GTO) solver for Texas Hold'em. It handles po
 
 * PostFlop Solver Analysis = Visualization of expected value (EV) for GTO strategies, particularly useful for identifying areas where mixed strategies are implemented (multiple strategies deployed at non-zero frequencies).
 
+# Microsoft Excel
+
+* Bluffing and Bluff Catching Model = Used to calclualte combinatorics required for GTO bluffing and bluff catching frequencies for rivers and also the EV based on bet size and equity.
+
 # SimplePostflop
 Simple Postflop is software for calculating Nash-Equilibrium strategies in pre-flop and post flop Texas Hold'em situations. SimplePostflop builds GTO strategies in pre-flop and post flop situations according to bet-sizing and ranges of two players.
 
@@ -23,7 +27,3 @@ Simple Postflop is software for calculating Nash-Equilibrium strategies in pre-f
 CardRunnersEV is poker analysis software that will allow you to build decision trees and calculate the EV of every decision within that tree.
 
 * Game Tree Analysis = Used to build the postflop game trees and explore permutations of possible outcomes based on different bet actions, bet sizes, and stack sizes.
-
-# Microsoft Excel
-
-* Bluffing and Bluff Catching Model = Used to calclualte combinatorics required for GTO bluffing and bluff catching frequencies for rivers and also the EV based on bet size and equity.
