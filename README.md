@@ -35,7 +35,7 @@ PokerTracker imports and parses the hand histories that poker sites create durin
 # PIOSolver
 PioSOLVER is a game theory optimal (GTO) solver for Texas Hold'em. It handles postflop spots with arbitrary starting ranges, stack sizes, bet-sizes as well as desired accuracy and displays the solution tree.
 
-* PostFlop Range Tree Builder = Used to build the postflop game trees and explore permutations of possible outcomes based on different bet actions, bet sizes, and stack sizes.
+* PostFlop Range Tree Builder - Used to build the postflop game trees and explore permutations of possible outcomes based on different bet actions, bet sizes, and stack sizes.
 
 <img src="PIOSolver - PostFlop Range Tree Builder.png"
      alt="PostFlop Range Tree Builder"
