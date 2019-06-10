@@ -1,31 +1,31 @@
 # PokerTracker 4
 PokerTracker imports and parses the hand histories that poker sites create during online play and stores the resulting statistics and information in a local PostgreSQL database. The information is used for in-game opponent analysis using a custom Heads-Up Display (HUD), an automatic real-time overlay of each players statistics for each poker table, and for statistical analysis and review using custom reports, statistics, and filters. 
 
-* Custom Statistic Coding = Custom coded statistics using SQL expressions used to track key metrics. Statistics are used in HUDs, filters, and reports. 
+* Custom Statistic Coding - Custom coded statistics using SQL expressions used to track key metrics. Statistics are used in HUDs, filters, and reports. 
 
 <img src="PokerTracker 4 - Custom Statistic Coding.png"
      alt="Custom Statistic Coding"
      style="float: left; margin-right: 10px;" />
    
-* Custom HUD = Displays general game state data and custom statistics on each table for each opponent. Used to identify mathematically exploitable frequencies resulting from inefficient strategies used by opponents.
+* Custom HUD - Displays general game state data and custom statistics on each table for each opponent. Used to identify mathematically exploitable frequencies resulting from inefficient strategies used by opponents.
 
 <img src="PokerTracker 4 - Custom HUD.jpg"
      alt="Custom HUD"
      style="float: left; margin-right: 10px;" />
 
-* Custom Pop-Up HUD = A visually smaller version of Custom HUD. Displays only essential metrics with additional information available from clickable pop-ups.
+* Custom Pop-Up HUD - A visually smaller version of Custom HUD. Displays only essential metrics with additional information available from clickable pop-ups.
 
 <img src="PokerTracker 4 - Custom Pop-Up HUD.png"
      alt="Custom Pop-Up HUD"
      style="float: left; margin-right: 10px;" />
 
-* HUD Builder = Used to create the HUDs. Builder shows each statistical group (panel on the table dsiplay), the custom statistics involved with each group, and an approximated representation of the table visualization.
+* HUD Builder - Used to create the HUDs. Builder shows each statistical group (panel on the table dsiplay), the custom statistics involved with each group, and an approximated representation of the table visualization.
 
 <img src="PokerTracker 4 - HUD Builder.png"
      alt="HUD Builder"
      style="float: left; margin-right: 10px;" />
 
-* Custom Reporting = Uses custom statistics and filters to isolate specific segments of data for statistical and strategic analysis, such as identifying population benchmarks or profitability cut-offs.
+* Custom Reporting - Uses custom statistics and filters to isolate specific segments of data for statistical and strategic analysis, such as identifying population benchmarks or profitability cut-offs.
 
 <img src="PokerTracker 4 - Custom Reporting.png"
      alt="Custom Reporting"
@@ -41,7 +41,7 @@ PioSOLVER is a game theory optimal (GTO) solver for Texas Hold'em. It handles po
      alt="PostFlop Range Tree Builder"
      style="float: left; margin-right: 10px;" />
 
-* PostFlop Solver Analysis = Visualization of expected value (EV) for GTO strategies, particularly useful for identifying areas where mixed strategies are implemented (multiple strategies deployed at non-zero frequencies).
+* PostFlop Solver Analysis - Visualization of expected value (EV) for GTO strategies, particularly useful for identifying areas where mixed strategies are implemented (multiple strategies deployed at non-zero frequencies).
 
 <img src="PIOSolver - PostFlop Solver Analysis.png"
      alt="PostFlop Solver Analysis"
@@ -49,7 +49,7 @@ PioSOLVER is a game theory optimal (GTO) solver for Texas Hold'em. It handles po
 
 # Microsoft Excel
 
-* Bluffing and Bluff Catching Model = Used to calclualte combinatorics required for GTO bluffing and bluff catching frequencies as well as the EV based on various frequencies, bet sizes, and equities.
+* Bluffing and Bluff Catching Model - Used to calclualte combinatorics required for GTO bluffing and bluff catching frequencies as well as the EV based on various frequencies, bet sizes, and equities.
 
 <img src="Microsoft Excel - Bluffing and Bluff Catching Model.png"
      alt="Microsfot Excel - Bluffing and Bluff Catching Model"
@@ -58,7 +58,7 @@ PioSOLVER is a game theory optimal (GTO) solver for Texas Hold'em. It handles po
 # SimplePostflop
 Simple Postflop is software for calculating Nash-Equilibrium strategies in pre-flop and post flop Texas Hold'em situations. SimplePostflop builds GTO strategies in pre-flop and post flop situations according to bet-sizing and ranges of two players.
 
-* Solver Analysis = Visualization of EV for GTO strategies, particularly useful for identifying areas where mixed strategies are implemented (multiple strategies deployed at non-zero frequencies).
+* Solver Analysis - Visualization of EV for GTO strategies, particularly useful for identifying areas where mixed strategies are implemented (multiple strategies deployed at non-zero frequencies).
 
 <img src="SimplePostflop - Solver Analysis.png"
      alt="Solver Analysis"
@@ -67,7 +67,7 @@ Simple Postflop is software for calculating Nash-Equilibrium strategies in pre-f
 # CardRunnersEV
 CardRunnersEV is poker analysis software that will allow you to build decision trees and calculate the EV of every decision within that tree.
 
-* Game Tree Analysis = Used to build the postflop game trees and explore permutations of possible outcomes based on different bet actions, bet sizes, and stack sizes.
+* Game Tree Analysis - Used to build the postflop game trees and explore permutations of possible outcomes based on different bet actions, bet sizes, and stack sizes.
 
 <img src="CardRunnersEV - Game Tree Analysis.png"
      alt="Cardrunners EV - Game Tree Analysis"
