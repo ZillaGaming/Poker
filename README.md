@@ -6,7 +6,13 @@ PokerTracker imports and parses the hand histories that poker sites create durin
 <img src="PokerTracker 4 - Custom Statistic Coding.png"
      alt="Custom Statistic Coding"
      style="float: left; margin-right: 10px;" />
-   
+
+* <b>HUD Builder</b> - Used to create the HUDs. Builder shows each statistical group (panel on the table dsiplay), the custom statistics involved with each group, and an approximated representation of the table visualization.
+
+<img src="PokerTracker 4 - HUD Builder.png"
+     alt="HUD Builder"
+     style="float: left; margin-right: 10px;" />
+
 * <b>Custom HUD</b> - Displays general game state data and custom statistics on each table for each opponent. Used to identify mathematically exploitable frequencies resulting from inefficient strategies used by opponents.
 
 <img src="PokerTracker 4 - Custom HUD.jpg"
@@ -17,12 +23,6 @@ PokerTracker imports and parses the hand histories that poker sites create durin
 
 <img src="PokerTracker 4 - Custom Reporting.png"
      alt="Custom Reporting"
-     style="float: left; margin-right: 10px;" />
-
-* <b>HUD Builder</b> - Used to create the HUDs. Builder shows each statistical group (panel on the table dsiplay), the custom statistics involved with each group, and an approximated representation of the table visualization.
-
-<img src="PokerTracker 4 - HUD Builder.png"
-     alt="HUD Builder"
      style="float: left; margin-right: 10px;" />
 
 # Microsoft Excel
