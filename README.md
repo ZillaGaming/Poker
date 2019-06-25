@@ -49,7 +49,7 @@ PioSOLVER is a game theory optimal (GTO) solver for Texas Hold'em. It handles po
      style="float: left; margin-right: 10px;" />
 
 # SimplePostflop
-Simple Postflop is software for calculating Nash-Equilibrium strategies in pre-flop and post flop Texas Hold'em situations. SimplePostflop builds GTO strategies in pre-flop and post flop situations according to bet-sizing and ranges of two players.
+Simple Postflop is software for calculating Nash-Equilibrium strategies in pre-flop and post flop Texas Hold'em situations. SimplePostflop builds GTO strategies in pre-flop and post flop situations according to bet-sizing and range inputs.
 
 * <b>Solver Analysis</b> - Visualization of EV for GTO strategies, particularly useful for identifying areas where mixed strategies are implemented (multiple strategies deployed at non-zero frequencies).
 
