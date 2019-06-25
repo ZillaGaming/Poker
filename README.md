@@ -27,14 +27,14 @@ PokerTracker imports and parses the hand histories that poker sites create durin
 
 # Microsoft Excel
 
-* <b>Bluffing and Bluff Catching Model</b> - Used to calclualte combinatorics required for GTO bluffing and bluff catching frequencies as well as the EV based on various frequencies, bet sizes, and equities.
+* <b>Bluffing and Bluff Catching Model</b> - Used to calclualte combinatorics required for game theory optimal (GTO) bluffing and bluff catching frequencies as well as the EV based on various frequencies, bet sizes, and equities.
 
 <img src="Microsoft Excel - Bluffing and Bluff Catching Model.png"
      alt="Microsfot Excel - Bluffing and Bluff Catching Model"
      style="float: left; margin-right: 10px;" />
 
 # PIOSolver
-PioSOLVER is a game theory optimal (GTO) solver for Texas Hold'em. It handles postflop spots with arbitrary starting ranges, stack sizes, bet-sizes as well as desired accuracy and displays the solution tree.
+PioSOLVER is a GTO solver for Texas Hold'em. It handles postflop spots with arbitrary starting ranges, stack sizes, bet-sizes as well as desired accuracy and displays the solution tree.
 
 * <b>PostFlop Range Tree Builder</b> - Used to build the postflop game trees and explore permutations of possible outcomes based on different bet actions, bet sizes, and stack sizes.
 
