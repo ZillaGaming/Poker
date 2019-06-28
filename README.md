@@ -33,6 +33,15 @@ PokerTracker imports and parses the hand histories that poker sites create durin
      alt="Microsfot Excel - Bluffing and Bluff Catching Model"
      style="float: left; margin-right: 10px;" />
 
+# CardRunnersEV
+CardRunnersEV is poker analysis software that will allow you to build decision trees and calculate the EV of every decision within that tree.
+
+* <b>Game Tree Analysis</b> - Used to build the postflop game trees and explore permutations of possible outcomes based on different bet actions, bet sizes, and stack sizes.
+
+<img src="CardRunnersEV - Game Tree Analysis.png"
+     alt="Cardrunners EV - Game Tree Analysis"
+     style="float: left; margin-right: 10px;" />
+
 # PIOSolver
 PioSOLVER is a GTO solver for Texas Hold'em. It handles postflop spots with arbitrary starting ranges, stack sizes, bet-sizes as well as desired accuracy and displays the solution tree.
 
@@ -48,14 +57,6 @@ PioSOLVER is a GTO solver for Texas Hold'em. It handles postflop spots with arbi
      alt="PostFlop Solver Analysis"
      style="float: left; margin-right: 10px;" />
 
-# CardRunnersEV
-CardRunnersEV is poker analysis software that will allow you to build decision trees and calculate the EV of every decision within that tree.
-
-* <b>Game Tree Analysis</b> - Used to build the postflop game trees and explore permutations of possible outcomes based on different bet actions, bet sizes, and stack sizes.
-
-<img src="CardRunnersEV - Game Tree Analysis.png"
-     alt="Cardrunners EV - Game Tree Analysis"
-     style="float: left; margin-right: 10px;" />
 
 
 
