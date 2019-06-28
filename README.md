@@ -1,6 +1,6 @@
 # Microsoft Excel
 
-* <b>Bluffing and Bluff Catching Model</b> - Used to calclualte combinatorics required for game theory optimal (GTO) bluffing and bluff catching frequencies as well as the EV based on various frequencies, bet sizes, and equities.
+* <b>Bluffing and Bluff Catching Model</b> - Used to calclualte combinatorics required for game theory optimal (GTO) bluffing and bluff catching frequencies as well as the expected value (EV) based on various frequencies, bet sizes, and equities.
 
 <img src="Microsoft Excel - Bluffing and Bluff Catching Model.png"
      alt="Microsfot Excel - Bluffing and Bluff Catching Model"
@@ -51,7 +51,7 @@ PioSOLVER is a GTO solver for Texas Hold'em. It handles postflop spots with arbi
      alt="PostFlop Range Tree Builder"
      style="float: left; margin-right: 10px;" />
 
-* <b>PostFlop Solver Analysis</b> - Visualization of expected value (EV) for GTO strategies, particularly useful for identifying areas where mixed strategies are implemented (multiple strategies deployed at non-zero frequencies).
+* <b>PostFlop Solver Analysis</b> - Visualization of EV for GTO strategies, particularly useful for identifying areas where mixed strategies are implemented (multiple strategies deployed at non-zero frequencies).
 
 <img src="PIOSolver - PostFlop Solver Analysis.png"
      alt="PostFlop Solver Analysis"
