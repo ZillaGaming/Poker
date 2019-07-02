@@ -1,13 +1,17 @@
-# Microsoft Excel
-
-* <b>Bluffing and Bluff Catching Model</b> - Used to calclualte combinatorics required for game theory optimal (GTO) bluffing and bluff catching frequencies as well as the expected value (EV) based on various frequencies, bet sizes, and equities.
-
-<img src="Microsoft Excel - Bluffing and Bluff Catching Model.png"
-     alt="Microsfot Excel - Bluffing and Bluff Catching Model"
-     style="float: left; margin-right: 10px;" />
-
 # PokerTracker 4
 PokerTracker imports and parses the hand histories that poker sites create during online play and stores the resulting statistics and information in a local PostgreSQL database. The information is used for in-game opponent analysis using a custom Heads-Up Display (HUD), an automatic real-time overlay of each players statistics for each poker table, and for statistical analysis and review using custom reports, statistics, and filters. 
+
+* <b>Custom HUD</b> - Displays general game state data and custom statistics on each table for each opponent. Used to identify mathematically exploitable frequencies resulting from inefficient strategies used by opponents.
+
+<img src="PokerTracker 4 - Custom HUD.jpg"
+     alt="Custom HUD"
+     style="float: left; margin-right: 10px;" />
+
+* <b>Custom Reporting</b> - Uses custom statistics and filters to isolate specific segments of data for statistical and strategic analysis, such as identifying population benchmarks or profitability cut-offs.
+
+<img src="PokerTracker 4 - Custom Reporting.png"
+     alt="Custom Reporting"
+     style="float: left; margin-right: 10px;" />
 
 * <b>Custom Statistic Coding</b> - Custom coded statistics using SQL expressions used to track key metrics. Statistics are used in HUDs, filters, and reports. 
 
@@ -21,16 +25,12 @@ PokerTracker imports and parses the hand histories that poker sites create durin
      alt="HUD Builder"
      style="float: left; margin-right: 10px;" />
 
-* <b>Custom HUD</b> - Displays general game state data and custom statistics on each table for each opponent. Used to identify mathematically exploitable frequencies resulting from inefficient strategies used by opponents.
+# Microsoft Excel
 
-<img src="PokerTracker 4 - Custom HUD.jpg"
-     alt="Custom HUD"
-     style="float: left; margin-right: 10px;" />
+* <b>Bluffing and Bluff Catching Model</b> - Used to calclualte combinatorics required for game theory optimal (GTO) bluffing and bluff catching frequencies as well as the expected value (EV) based on various frequencies, bet sizes, and equities.
 
-* <b>Custom Reporting</b> - Uses custom statistics and filters to isolate specific segments of data for statistical and strategic analysis, such as identifying population benchmarks or profitability cut-offs.
-
-<img src="PokerTracker 4 - Custom Reporting.png"
-     alt="Custom Reporting"
+<img src="Microsoft Excel - Bluffing and Bluff Catching Model.png"
+     alt="Microsfot Excel - Bluffing and Bluff Catching Model"
      style="float: left; margin-right: 10px;" />
 
 # CardRunnersEV
