@@ -13,7 +13,7 @@ PokerTracker imports and parses the hand histories that poker sites create durin
      alt="Custom Reporting"
      style="float: left; margin-right: 10px;" />
 
-* <b>Custom Statistic Coding</b> - Custom coded statistics using SQL expressions used to track key metrics. Statistics are used in HUDs, filters, and reports. 
+* <b>Custom Statistic Coding</b> - Custom coded statistics using SQL expressions used to track key metrics. Statistics are used in HUDs, filters, and reports. Statistics measure specific player behavior for various segments of the game tree. 
 
 <img src="PokerTracker 4 - Custom Statistic Coding.png"
      alt="Custom Statistic Coding"
