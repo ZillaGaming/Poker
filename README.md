@@ -3,6 +3,15 @@ PokerTracker imports and parses the hand histories that poker sites create durin
 
 * <b>Custom HUD</b> - Displays general game state data and custom statistics on each table for each opponent. Used to identify mathematically exploitable frequencies resulting from inefficient strategies used by opponents.
 
+* <b>Example Statistic Usage</b>
+
+<OL>
+<LI>Fv3B = Fold versus Three Bet: The frequency the player raises then folds to re-raise
+<LI>Represented as a percentage from 0 to 99. A value of 0 means that every time this player raises he has called a re-raise.
+<LI>Fv3B = 0, This player never folds after raising. The strategic adjustment made would be to only re-raise this player with high equity holdings. This player continues at a high frequency therefore increasing the importance of having a lot of equity.
+<LI>Fv3B = 99, This player almost always folds after raising. Meaning that we can re-raise them with a high freuqency and win the put uncontested. This is a scenario where we would bluff with low equity holdings because this player folds too frequently for our equity to matter significantly.
+</OL>
+
 <img src="PokerTracker 4 - Custom HUD.jpg"
      alt="Custom HUD"
      style="float: left; margin-right: 10px;" />
