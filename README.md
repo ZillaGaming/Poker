@@ -8,7 +8,7 @@ PokerTracker imports and parses the hand histories that poker sites create durin
 <OL>
 <LI>Fv3B = Fold versus Three Bet: The frequency the player raises then folds to a re-raise. Represented as a percentage from 0 to 99. A value of 0 means that every time this player raises he has called a re-raise.
 <LI>Fv3B = 0, This player has always called a re-raise after raising. The strategic adjustment made would be to only re-raise this player with high equity holdings. This player continues at a high frequency therefore increases the importance of equity.
-<LI>Fv3B = 99, This player almost always folds after raising. Meaning that we can re-raise them with a high frequency and win the put uncontested. This is a scenario where we would bluff with low equity holdings because this player folds too frequently for our equity to matter significantly.
+<LI>Fv3B = 99, This player almost always folds after raising. Meaning that we can re-raise them with a high frequency and win the pot uncontested. This is a scenario where we would bluff with low equity holdings because this player folds too frequently for our equity to matter significantly.
 </OL>
 
 <img src="PokerTracker 4 - Custom HUD.jpg"
