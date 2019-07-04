@@ -15,16 +15,16 @@ PokerTracker imports and parses the hand histories that poker sites create durin
      alt="Custom HUD"
      style="float: left; margin-right: 10px;" />
 
-* <b>Custom Reporting</b> - Uses custom statistics and filters to isolate specific segments of data for statistical and strategic analysis, such as identifying population benchmarks or profitability cut-offs.
-
-<img src="PokerTracker 4 - Custom Reporting.png"
-     alt="Custom Reporting"
-     style="float: left; margin-right: 10px;" />
-
 * <b>Custom Statistic Coding</b> - Custom coded statistics using SQL expressions used to track key metrics. Statistics are used in HUDs, filters, and reports. Statistics measure specific player behavior for various segments of the game tree. 
 
 <img src="PokerTracker 4 - Custom Statistic Coding.png"
      alt="Custom Statistic Coding"
+     style="float: left; margin-right: 10px;" />
+
+* <b>Custom Reporting</b> - Uses custom statistics and filters to isolate specific segments of data for statistical and strategic analysis, such as identifying population benchmarks or profitability cut-offs.
+
+<img src="PokerTracker 4 - Custom Reporting.png"
+     alt="Custom Reporting"
      style="float: left; margin-right: 10px;" />
 
 * <b>HUD Builder</b> - Used to create the HUDs. Builder shows each statistical group (panel on the table dsiplay), the custom statistics involved with each group, and an approximated representation of the table visualization.
