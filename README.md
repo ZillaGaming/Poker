@@ -3,7 +3,7 @@ PokerTracker imports and parses the hand histories that poker sites create durin
 
 * <b>Custom HUD</b> - Displays general game state data and custom statistics on each table for each opponent. Used to identify mathematically exploitable frequencies in opponent's strategies.
 
-* <b>Example Statistic Usage</b>
+* <b>Example Statistic Usage - Identifying An Exploit Using Mathematical Thresholds</b>
 
 <OL>
 <LI>FvMR = Fold versus Minimum Raise: The frequency the player folds to a minimum raise. Represented as a percentage from 0 to 99. A value of 99 means that every time this player faces a minimum raises he has folded and conceded his equity share in the pot. 
