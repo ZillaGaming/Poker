@@ -4,7 +4,7 @@ PokerTracker imports and parses the hand histories that poker sites create durin
 * <b>Custom HUD</b> - Displays general game state data and custom statistics on each table for each opponent. Used to identify mathematically exploitable frequencies in opponent's strategies.
 
 * <b>Example Statistic Usage - Identifying An Exploit Using Mathematical Thresholds</b>
-
+ 
 <OL>
 <LI>FvMR = Fold versus Minimum Raise: The frequency the player folds to a minimum raise. Represented as a percentage from 0 to 99. A value of 99 means that every time this player faces a minimum raises he has folded and conceded his equity share in the pot. 
 <LI> Example Scenario = Two Players. Blinds $25/$50. Starting pot (reward) is $75. Player 1 minimum raises and risks an additional $75 (total of $100) to win the $75. Let's assume that Player 1 has no equity and only wins if Player 2 folds (concedes the pot). Player 1 is risking $75 to win $75. If Player 1 wins the pot 50% of the time Player 1 breaks even. If that number is greater than 50% he makes money every time and should always make this play. If that number is less than 50% he loses money every time and should never make this play. If we give Player 1 equity (winning the pot without Player 2 folding) than the breakeven threshold of 50% goes down depending on how much equity Player 1 recieves. In a real scenario, Player 1 would always have more than 0% equity. This establishes a benchmark that if Player 2 has FvMR > 50% than Player 1 has identified a strategic opportunity that is ALWAYS profitable even with no equity. 
