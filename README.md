@@ -41,7 +41,7 @@ PokerTracker imports and parses the hand histories that poker sites create durin
      alt="Microsfot Excel - Bluffing and Bluff Catching Model"
      style="float: left; margin-right: 10px;" />
 
-# Playing 20 Tables Simultaneously at Midstakes
+# Playing 20 Tables Simultaneously
 
 Here I'm playing 20 tables simultaneously at midstakes ($400 to $1,000 buy-ins). At approximately 75 hands per hour this amount of multitasking equates to ~25 hands per minute. This requires a high degrees of focus, concentration, and near automatic implementation of strategy based on a deeply ingrained understanding of advanced mathematics (statistics, combinatorics, etc.), risk-reward analysis, and game theory.
 
