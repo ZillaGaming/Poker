@@ -3,6 +3,10 @@ PokerTracker imports and parses the hand histories that poker sites create durin
 
 * <b>Custom HUD</b> - Displays general game state data and custom statistics on each table for each opponent. Used to identify mathematically exploitable frequencies in opponent's strategies.
 
+<img src="PokerTracker 4 - Custom HUD.jpg"
+     alt="Custom HUD"
+     style="float: left; margin-right: 10px;" />
+
 * <b>Example Statistic Usage - Identifying An Exploit Using Mathematical Thresholds</b>
  
 <OL>
@@ -10,10 +14,6 @@ PokerTracker imports and parses the hand histories that poker sites create durin
 <LI> Example Scenario = Two Players. Blinds $25/$50. Starting pot (reward) is $75. Player 1 minimum raises and risks an additional $75 (total of $100) to win the $75. Let's assume that Player 1 has no equity and only wins if Player 2 folds (concedes the pot). Player 1 is risking $75 to win $75. If Player 1 wins the pot 50% of the time Player 1 breaks even. If that number is greater than 50% he makes money every time and should always make this play. If that number is less than 50% he loses money every time and should never make this play. If we give Player 1 equity (winning the pot without Player 2 folding) than the breakeven threshold of 50% goes down depending on how much equity Player 1 recieves. In a real scenario, Player 1 would always have more than 0% equity. This establishes a benchmark that if Player 2 has FvMR > 50% than Player 1 has identified a strategic opportunity that is ALWAYS profitable even with no equity. 
 <LI> Business Relevance = In business it is rare to have such a fixed set of constraints like you would have within a game, however the risk-reward analysis can prove useful in a business setting by ensuring that you are maximizing your resources (money, time, etc.) to ensure that the business is pursuing projects that will have the greatest return on investment (ROI). In this specific example we looked at a simplified poker model that examined the application of the statistic FvMR, however this could easily be replaced by an online business model examining website traffic, click through rates, total value of sales, cost per click or acquisition, etc. 
 </OL>
-
-<img src="PokerTracker 4 - Custom HUD.jpg"
-     alt="Custom HUD"
-     style="float: left; margin-right: 10px;" />
 
 * <b>Custom Statistic Coding</b> - Custom coded statistics using SQL expressions used to track key metrics. Statistics are used in HUDs, filters, and reports. Statistics measure specific player behavior for various segments of the game tree. 
 
@@ -39,6 +39,15 @@ PokerTracker imports and parses the hand histories that poker sites create durin
 
 <img src="Microsoft Excel - Bluffing and Bluff Catching Model.png"
      alt="Microsfot Excel - Bluffing and Bluff Catching Model"
+     style="float: left; margin-right: 10px;" />
+
+# Playing 20 Tables Simultaneously at Midstakes
+
+Here I'm playing 20 tables simultaneously at midstakes ($400-$1,000 buy-ins). At approximately 75 hands per hour this amount of multitasking equates to ~25 hands per minute. This requires a high degrees of focus, concentration, and near automatic implementation of strategy based on a deeply ingrained understanding of advanced mathematics (statistics, combinatorics, etc.), risk-reward analysis, and game theory.
+
+
+<img src="21 Tabling.jpg"
+     alt="Custom Reporting"
      style="float: left; margin-right: 10px;" />
 
 # CardRunnersEV
