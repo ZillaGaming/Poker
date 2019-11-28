@@ -33,7 +33,7 @@ PokerTracker imports and parses the hand histories that poker sites create durin
      alt="HUD Builder"
      style="float: left; margin-right: 10px;" />
 
-# Microsoft Excel
+# Microsoft Excel Example Model
 
 * <b>Bluffing and Bluff Catching Model</b> - Used to calclualte combinatorics required for game theory optimal (GTO) bluffing and bluff catching frequencies as well as the expected value (EV) based on various frequencies, bet sizes, and equities.
 
