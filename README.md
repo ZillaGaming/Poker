@@ -43,14 +43,14 @@ PokerTracker imports and parses the hand histories that poker sites create durin
 
 # Playing 20 Tables Simultaneously at Midstakes
 
-Here I'm playing 20 tables simultaneously at midstakes ($400-$1,000 buy-ins). At approximately 75 hands per hour this amount of multitasking equates to ~25 hands per minute. This requires a high degrees of focus, concentration, and near automatic implementation of strategy based on a deeply ingrained understanding of advanced mathematics (statistics, combinatorics, etc.), risk-reward analysis, and game theory.
+Here I'm playing 20 tables simultaneously at midstakes ($400 to $1,000 buy-ins). At approximately 75 hands per hour this amount of multitasking equates to ~25 hands per minute. This requires a high degrees of focus, concentration, and near automatic implementation of strategy based on a deeply ingrained understanding of advanced mathematics (statistics, combinatorics, etc.), risk-reward analysis, and game theory.
 
 
 <img src="21 Tabling.jpg"
      alt="Custom Reporting"
      style="float: left; margin-right: 10px;" />
 
-# CardRunnersEV
+# CardRunnersEV (Tree Analysis)
 CardRunnersEV is poker analysis software that will allow you to build decision trees and calculate the EV of every decision within that tree.
 
 * <b>Game Tree Analysis</b> - Used to build the postflop game trees and explore permutations of possible outcomes based on different bet actions, bet sizes, and stack sizes.
@@ -59,7 +59,7 @@ CardRunnersEV is poker analysis software that will allow you to build decision t
      alt="Cardrunners EV - Game Tree Analysis"
      style="float: left; margin-right: 10px;" />
 
-# PIOSolver
+# PIOSolver (Tree Analysis)
 PioSOLVER is a GTO solver for Texas Hold'em. It handles postflop spots with arbitrary starting ranges, stack sizes, bet-sizes as well as desired accuracy and displays the solution tree.
 
 * <b>PostFlop Range Tree Builder</b> - Used to build the postflop game trees and explore permutations of possible outcomes based on different bet actions, bet sizes, and stack sizes.
