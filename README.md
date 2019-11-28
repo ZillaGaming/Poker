@@ -59,7 +59,7 @@ CardRunnersEV is poker analysis software that will allow you to build decision t
      alt="Cardrunners EV - Game Tree Analysis"
      style="float: left; margin-right: 10px;" />
 
-# PIOSolver (Tree Analysis)
+# PIOSolver (Tree & Game Thoery (Nash Equilibrium) Analysis)
 PioSOLVER is a GTO solver for Texas Hold'em. It handles postflop spots with arbitrary starting ranges, stack sizes, bet-sizes as well as desired accuracy and displays the solution tree.
 
 * <b>PostFlop Range Tree Builder</b> - Used to build the postflop game trees and explore permutations of possible outcomes based on different bet actions, bet sizes, and stack sizes.
